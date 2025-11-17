@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "build:gh": "ng build --configuration production --base-href /pet-ness-promo/",
-    "deploy:gh": "npm run build:gh && npx angular-cli-ghpages --dir=dist/pet-ness-promo"
+    "deploy:gh": "npm run build:gh && npx angular-cli-ghpages --dir=dist/pet-ness-promo/browser"
   },
   "private": true,
   "dependencies": {
